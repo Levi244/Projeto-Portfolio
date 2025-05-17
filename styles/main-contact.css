@@ -1,0 +1,35 @@
+main #contact {
+    width: 100%;
+    height: 100%;
+    padding: 8vh 18vw;
+}
+
+main #contact .content {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #contact .content h2{
+    font-size: 2rem;
+}
+
+main #contact .content h2 span{
+    color: var(--cor-secundaria);
+}
+
+main #contact .content form{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+main #contact .content form label{
+    font-weight: 100;
+}

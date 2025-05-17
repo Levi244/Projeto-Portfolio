@@ -110,9 +110,3 @@ main #home .photo div:hover {
 main #home .photo div img {
     width: 100%;
 }
-
-main #contact {
-    width: 100%;
-    height: 100%;
-    padding: 8vh 18vw;
-}
