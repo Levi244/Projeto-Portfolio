@@ -31,5 +31,25 @@ main #contact .content form{
 }
 
 main #contact .content form label{
-    font-weight: 100;
+    font-weight: 500;
 }
+
+main #contact .content form input,
+main #contact .content form textarea{
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ffffff10;
+    border-radius: 0.8rem;
+    font-family: inherit;
+    border: 0.063rem solid var(--cor-generica);
+    resize: none;
+    font-size: 1rem;
+}
+
+main #contact .content form input:focus,
+main #contact .content form textarea:focus {
+    outline: none;
+    border: 0.063rem solid var(--cor-secundaria);
+}
+
+main #contact .content form
